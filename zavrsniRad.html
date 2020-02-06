@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="zavrsniRad.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+        <script src="zavrsniRad.js"></script>
+    </head>
+    <body ng-app="modul">
+
+        <!--
+        <div id="menu">
+        </div>-->
+
+        <div id="okvir" ng-controller="kontinenti">
+            <div id="glavni">
+            <div id="prvi" ng-style="myStyleEvropa">
+                <h1 ng-style="myStyleEvropaIme" id="tekstPrvi" ng-click="evropa()">Europa</h1>
+            </div>
+            <div id="drugi" ng-style="prekoEvropeAzija">
+                <h1 id="tekstDrugi">Azija</h1>
+            </div>
+            <div id="treci" ng-style="prekoEvropeAfrika">
+                <h1 id="tekstTreci">Afrika</h1>
+            </div>
+            <div id="cetvrti" ng-style="prekoEvropeAmerika">
+                <h1 id="tekstCetvrti">Amerika</h1>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

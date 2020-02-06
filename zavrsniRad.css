@@ -1,0 +1,166 @@
+body
+{
+    margin: 0;
+    background-color: #070707;
+    background-image: url(Earth2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu
+{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(92, 75, 75);
+    filter: opacity(0.7);
+}
+
+#okvir
+{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+#glavni
+{
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    position: relative;
+}
+
+#prvi
+{ 
+    top: 15%;
+    left: 15%;
+    position: absolute;
+    width: fit-content;
+    height: 0;
+    border-radius: 50%;
+    border-top: 250px solid red;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    filter: opacity(0.5);
+}
+
+#prvi h1
+{
+    cursor: pointer;
+}
+
+#prvi:hover
+{
+    transition: 0.5s;
+    top: 90px;
+    filter: opacity(1);
+}
+
+#drugi
+{
+    bottom: 96px;
+    left: 355px;
+    position: absolute;
+    width: fit-content;
+    height: 0;
+    border-radius: 50%;
+    border-right: 250px solid green;
+    border-top: 250px solid transparent;
+    border-bottom: 250px solid transparent;
+    filter: opacity(0.5);
+}
+
+#drugi h1
+{
+    cursor: pointer;
+}
+
+#drugi:hover
+{
+    transition: 0.5s;
+    left: 370px;
+    filter: opacity(1);
+}
+
+#treci
+{
+    top: 15%;
+    left: 15%;
+    position: absolute;
+    width: fit-content;
+    height: 0;
+    border-radius: 50%;
+    border-left: 250px solid blue;
+    border-top: 250px solid transparent;
+    border-bottom: 250px solid transparent;
+    filter: opacity(0.5);
+}
+
+#treci h1
+{
+    cursor: pointer;
+}
+
+#treci:hover
+{
+    transition: 0.5s;
+    left: 90px;
+    filter: opacity(1);
+}
+
+#cetvrti
+{
+    top: 50.5%;
+    left: 15%;
+    position: absolute;
+    width: fit-content;
+    height: 0;
+    border-radius: 50%;
+    border-bottom: 250px solid gray;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    filter: opacity(0.5);
+}
+
+#cetvrti h1
+{
+    cursor: pointer;
+}
+
+#cetvrti:hover
+{
+    transition: 0.5s;
+    top: 370px;
+    filter: opacity(1);
+}
+
+#tekstPrvi
+{
+    position: absolute;
+    bottom: 132px;
+    right: -50px;
+}
+
+#tekstDrugi
+{
+    position: absolute;
+    left: 110px;
+    top: -35px;
+}
+
+#tekstTreci
+{
+    position: absolute;
+    bottom: -40px;
+    right: 87px;
+}
+
+#tekstCetvrti
+{
+    position: absolute;
+    bottom: -200px;
+    right: -50px;
+}
