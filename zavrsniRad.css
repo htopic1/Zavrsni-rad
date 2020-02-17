@@ -11,11 +11,80 @@ body
 #menu
 {
     position: fixed;
-    z-index: 1;
     width: 100%;
-    height: 50px;
-    background-color: rgb(92, 75, 75);
+    height: 48px;
+    z-index: 1;
+    background-color: brown;
     filter: opacity(0.7);
+}
+
+#lista
+{
+    list-style-type: none;
+    height: 48px;
+    display: flex;
+    padding: 0 100px;
+    margin: 0;
+}
+
+.glMeni
+{
+    flex: 1;
+    text-align: center;
+    padding: 15 0;
+}
+
+.glMeni:hover
+{
+    background-color: gray;
+}
+
+.lista2
+{
+    padding: 0;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+#padMeni1
+{
+    display: none;
+}
+
+#padMeni2
+{
+    display: none;
+}
+
+#padMeni3
+{
+    display: none;
+}
+
+#padMeni4
+{
+    display: none;
+}
+
+.prviPodMeni
+{
+    height: fit-content;
+    background-color: red;
+}
+
+.stavkePodliste
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.stavkePodliste:hover
+{
+    background-color: gray;
+    border-bottom: solid 1px black;
+    padding-bottom: 14px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 #okvir
