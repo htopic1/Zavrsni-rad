@@ -5,10 +5,51 @@
         <script src="zavrsniRad.js"></script>
     </head>
     <body ng-app="modul">
-
-        <!--
+        
         <div id="menu">
-        </div>-->
+            <ul id="lista" ng-controller="meni">
+                <li class="glMeni" ng-mouseleave="sakrijEvropa()" ng-mouseover="padajEvropa()">Europa
+                    <div class="prviPodMeni">
+                    <ul class="lista2" id="padMeni1" ng-style="styleEvropa">
+                        <li class="stavkePodliste">evropa</li>
+                        <li class="stavkePodliste">evropa</li>
+                        <li class="stavkePodliste">evropa</li>
+                        <li class="stavkePodliste">evropa</li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="glMeni" ng-mouseleave="sakrijAzija()" ng-mouseover="padajAzija()">Azija
+                    <div class="prviPodMeni">
+                        <ul class="lista2" id="padMeni2" ng-style="styleAzija">
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="glMeni" ng-mouseleave="sakrijAfrika()" ng-mouseover="padajAfrika()">Afrika
+                    <div class="prviPodMeni">
+                        <ul class="lista2" id="padMeni3" ng-style="styleAfrika">
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="glMeni" ng-mouseleave="sakrijAmerika()" ng-mouseover="padajAmerika()">Amerika
+                    <div class="prviPodMeni">
+                        <ul class="lista2" id="padMeni4" ng-style="styleAmerika">
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                            <li class="stavkePodliste">evropa</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
 
         <div id="okvir" ng-controller="kontinenti">
             <div id="glavni">
