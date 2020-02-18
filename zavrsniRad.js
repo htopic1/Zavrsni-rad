@@ -66,6 +66,74 @@ var prviAngular=angular
                             "display":"none"
                         }
                     }
+
+                    $scope.hoverujStavku1=function()
+                    {
+                        $scope.hoveruj1=
+                        {
+                            "display":"block",
+                            "animation":"0.4s linear 1 forwards running slidein"
+                        }
+                    }
+
+                    $scope.hoverujStavku2=function()
+                    {
+                        $scope.hoveruj2=
+                        {
+                            "display":"block",
+                            "animation":"0.4s linear 1 forwards running slidein"
+                        }
+                    }
+
+                    $scope.hoverujStavku3=function()
+                    {
+                        $scope.hoveruj3=
+                        {
+                            "display":"block",
+                            "animation":"0.4s linear 1 forwards running slidein"
+                        }
+                    }
+
+                    $scope.hoverujStavku4=function()
+                    {
+                        $scope.hoveruj4=
+                        {
+                            "display":"block",
+                            "animation":"0.4s linear 1 forwards running slidein"
+                        }
+                    }
+
+                    $scope.prestaniHoverovat1=function()
+                    {
+                        $scope.hoveruj1=
+                        {
+                            "display":"none"
+                        }
+                    }
+
+                    $scope.prestaniHoverovat2=function()
+                    {
+                        $scope.hoveruj2=
+                        {
+                            "display":"none"
+                        }
+                    }
+
+                    $scope.prestaniHoverovat3=function()
+                    {
+                        $scope.hoveruj3=
+                        {
+                            "display":"none"
+                        }
+                    }
+
+                    $scope.prestaniHoverovat4=function()
+                    {
+                        $scope.hoveruj4=
+                        {
+                            "display":"none"
+                        }
+                    }
                 })
 
                 .controller('kontinenti',function($scope)
